@@ -158,10 +158,10 @@ run('plot_mqtt_metrics.m')
 If you use this dataset or scripts in your research, please cite the associated paper:
 
 ```
-@article{arenas2025uns,
+@article{diaz2025uns,
   title   = {Performance Evaluation of Architectural Design Approaches
              for Unified Namespace in Industrial Data Systems},
-  author  = {Arenas, John},
+  author  = {Diaz, Juliam},
   year    = {2025}
 }
 ```
@@ -176,5 +176,5 @@ This repository is provided for academic reproducibility purposes in support of 
 
 ## Author
 
-**John Arenas**  
+**Juliam Diaz**  
 Master's Thesis, 2025

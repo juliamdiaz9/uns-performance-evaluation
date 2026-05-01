@@ -47,7 +47,7 @@ Usage
 
 Author
 ------
-  John Arenas – Master's Thesis, 2025
+  Juliam Diaz – Master's Thesis, 2025
 """
 
 import os
