@@ -161,7 +161,7 @@ If you use this dataset or scripts in your research, please cite the associated 
 @article{diaz2025uns,
   title   = {Performance Evaluation of Architectural Design Approaches
              for Unified Namespace in Industrial Data Systems},
-  author  = {Diaz, Juliam},
+  author  = {D{\'i}az, Juliam A. and Delgado, Joaqu{\'i}n and Rey, Juan M. and Duarte, Natalia and Hern{\'a}ndez, Iv{\'a}n},
   year    = {2025}
 }
 ```
