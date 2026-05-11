@@ -10,11 +10,6 @@
 
 This repository contains the raw telemetry data, preprocessing pipeline, and visualization scripts used to evaluate and compare two IoT task scheduling strategies applied to an EMQX MQTT broker within a **Unified Namespace (UNS)** architecture for industrial data systems.
 
-The two architectural approaches under evaluation are:
-
-- **Schultz Method** – experimental session recorded on 2025-11-05
-- **Parris Method** – experimental session recorded on 2025-11-06
-
 Both sessions were conducted under equivalent load conditions. Twenty-four broker performance metrics were exported from a Grafana monitoring dashboard and processed for side-by-side temporal analysis.
 
 ---
