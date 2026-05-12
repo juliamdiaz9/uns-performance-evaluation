@@ -76,8 +76,8 @@ INTERVAL1_START = pd.to_datetime("2025-11-05 13:54:00", format="%Y-%m-%d %H:%M:%
 INTERVAL1_END   = pd.to_datetime("2025-11-05 15:52:00", format="%Y-%m-%d %H:%M:%S")
 
 # Session 2 – Parris Method
-INTERVAL2_START = pd.to_datetime("2025-11-06 13:58:00", format="%Y-%m-%d %H:%M:%S")
-INTERVAL2_END   = pd.to_datetime("2025-11-06 15:56:00", format="%Y-%m-%d %H:%M:%S")
+INTERVAL2_START = pd.to_datetime("2025-11-05 13:58:00", format="%Y-%m-%d %H:%M:%S")
+INTERVAL2_END   = pd.to_datetime("2025-11-05 15:56:00", format="%Y-%m-%d %H:%M:%S")
 
 # Number of consecutive samples to extract per session
 N_POINTS = 60

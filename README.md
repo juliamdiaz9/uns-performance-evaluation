@@ -8,9 +8,9 @@
 
 ## Overview
 
-This repository contains the raw telemetry data, preprocessing pipeline, and visualization scripts used to evaluate and compare two IoT task scheduling strategies applied to an EMQX MQTT broker within a **Unified Namespace (UNS)** architecture for industrial data systems.
+This repository provides the datasets, preprocessing pipeline, and visualization scripts supporting the performance evaluation presented in the associated paper. The study benchmarks two architectural design approaches for implementing a **Unified Namespace (UNS)** over an EMQX MQTT broker in an industrial data system, comparing their behavior under equivalent load conditions across multiple tag-count scenarios (220 and 1100 tags).
 
-Both sessions were conducted under equivalent load conditions. Twenty-four broker performance metrics were exported from a Grafana monitoring dashboard and processed for side-by-side temporal analysis.
+Twenty-four broker performance metrics — spanning session management, message throughput, packet rates, and byte transfer — were collected via the EMQX Cloud REST API, processed into aligned time series, and visualized for side-by-side comparative analysis.
 
 ---
 
@@ -69,7 +69,7 @@ Each CSV file corresponds to one MQTT broker metric. Files were exported using G
 |---|---|---|
 | `Time` | `datetime` (`YYYY-MM-DD HH:MM:SS`) | Sample timestamp |
 | `Schultz Method` | `float` | Metric value during Session 1 (2025-11-05) |
-| `Parris Method` | `float` | Metric value during Session 2 (2025-11-06) |
+| `Parris Method` | `float` | Metric value during Session 2 (2025-11-05) |
 
 **Metrics and units:**
 
@@ -143,7 +143,7 @@ run('plot_mqtt_metrics.m')
 | Monitoring | Grafana + Prometheus |
 | Sampling interval | 2 minutes (raw), aligned to 60 samples |
 | Session 1 (Schultz) window | 2025-11-05 13:54 – 15:52 |
-| Session 2 (Parris) window | 2025-11-06 13:58 – 15:56 |
+| Session 2 (Parris) window | 2025-11-05 13:58 – 15:56 |
 | Metrics collected | 24 |
 
 ---
